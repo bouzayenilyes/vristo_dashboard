@@ -1,16 +1,15 @@
-const withPWA = require("next-pwa")({
-    disable: process.env.NODE_ENV === "development",
+const withPWA = require('next-pwa')({
+    disable: process.env.NODE_ENV === 'development',
     register: true,
     skipWaiting: true,
-  });
+});
 
-  const nextConfig = withPWA({
+const nextConfig = withPWA({
     reactStrictMode: true,
     swcMinify: true,
     eslint: {
-      ignoreDuringBuilds: true,
+        ignoreDuringBuilds: true,
     },
-  });
+});
 
-  module.exports = nextConfig;
-  
+module.exports = nextConfig;
