@@ -8,7 +8,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 
 const ComponentsAppsInvoiceAdd = () => {
-    const currencyList = ['USD - US Dollar', 'GBP - British Pound', 'IDR - Indonesian Rupiah', 'INR - Indian Rupee', 'BRL - Brazilian Real', 'EUR - Germany (Euro)', 'TRY - Turkish Lira'];
+    const currencyList = ['USD - US Dollar', 'GBP - British Pound', 'TND - Tunisian Currency',  'EUR - Germany (Euro)'];
 
     const [items, setItems] = useState<any>([
         {
@@ -158,6 +158,7 @@ const ComponentsAppsInvoiceAdd = () => {
                                 <select id="country" name="country" className="form-select flex-1">
                                     <option value="">Choose Country</option>
                                     <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
                                     <option value="United Kingdom">United Kingdom</option>
                                     <option value="Canada">Canada</option>
                                     <option value="Australia">Australia</option>
