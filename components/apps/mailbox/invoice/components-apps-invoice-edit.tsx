@@ -8,7 +8,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 const ComponentsAppsInvoiceEdit = () => {
-    const currencyList = ['USD - US Dollar', 'GBP - British Pound', 'IDR - Indonesian Rupiah', 'INR - Indian Rupee', 'BRL - Brazilian Real', 'EUR - Germany (Euro)', 'TRY - Turkish Lira'];
+    const currencyList = ['USD - US Dollar', 'GBP - British Pound', 'TND - Tunisian Currency',  'EUR - Germany (Euro)'];
     const [tax, setTax] = useState<any>(0);
     const [discount, setDiscount] = useState<any>(0);
     const [shippingCharge, setShippingCharge] = useState<any>(0);
