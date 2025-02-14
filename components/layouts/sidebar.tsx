@@ -124,12 +124,6 @@ const Sidebar = () => {
                                         <li>
                                             <Link href="/analytics">{t('analytics')}</Link>
                                         </li>
-                                        <li>
-                                            <Link href="/finance">{t('finance')}</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/crypto">{t('crypto')}</Link>
-                                        </li>
                                     </ul>
                                 </AnimateHeight>
                             </li>
@@ -702,7 +696,7 @@ const Sidebar = () => {
                                 </AnimateHeight>
                             </li>
 
-                        
+
                         </ul>
                     </PerfectScrollbar>
                 </div>
